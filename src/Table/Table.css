@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Nunito-Light';
+  src: local('Nunito-Light'), url(../Nunito-Light.ttf) format('ttf');
+}
+
+.mainRow {
+  background: #f1fcff;
+  color: #235390;
+  /*font-family: 'Nunito-Light';*/
+}
+
+.sameRow {
+  color: #4f4f4f;
+  /* font-family: 'Nunito-Light';*/
+}
