@@ -4,7 +4,7 @@
 }
 
 .mainRow {
-  background: #f1fcff;
+  background: #f1fcff; /*#f1fcff*/
   color: #235390;
   /*font-family: 'Nunito-Light';*/
 }
@@ -12,4 +12,8 @@
 .sameRow {
   color: #4f4f4f;
   /* font-family: 'Nunito-Light';*/
+}
+
+.firstRow {
+  background-color: #F5E6FE;
 }

@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 const Table = (props) => (
-  <table className="table">
+  <table className="table table-hover">
     <thead className="mainRow">
       <tr>
         <th onClick={props.onSort.bind(null, 'id')}>
-
+          №
           {props.sortField === 'id' ? (
             props.sort === 'asc' ? (
               <small>
@@ -124,7 +124,10 @@ const Table = (props) => (
     </thead>
     <tbody className="sameRow">
       {props.data.map((item) => (
-        <tr key={item.id + item.ln}>
+        <tr
+          key={item.id + item.ln}
+          className={item.id === 1 ? 'firstRow' : 'table-light'}
+        >
           <td>{item.id}</td>
           <td>{item.ln}</td>
           <td>{item.exInLes}</td>
