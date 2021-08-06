@@ -1,6 +1,6 @@
 # Basic table
 
-This is a test table made for a task from [Chesster](https://chesstery.com/) and developed  with the help of [Create React App](https://github.com/facebook/create-react-app).
+This is a test table made for a task from [Сhesstery](https://chesstery.com/) and developed  with the help of [Create React App](https://github.com/facebook/create-react-app).
 
 ## Scripts used
 
@@ -20,4 +20,6 @@ Style is not meets the requirements
 
 Refactoring the entire application extract method.
 
-You can see the result [here]()
+
+## You can see the result [here](https://codesandbox.io/s/table-in-your-personal-account-jb5ih?file=/src/App.js)
+   
